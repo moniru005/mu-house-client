@@ -104,7 +104,7 @@ const handleDeleteTask = (house) => {
               <th className={`border`}>SL</th>
               <th className="w-56 ">Name</th>
               <th className="border">City</th>
-              <th className="border">Size</th>
+              <th className="border">Size (SFT)</th>
               <th className="border">Phone</th>
               <th className="border">Available</th>
               <th className="border">A</th>

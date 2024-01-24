@@ -12,6 +12,8 @@ import OwnerHome from "../Pages/Dashboard/DashHome/OwnerHome";
 import AddNewHouse from "../Pages/Dashboard/DashPages/AddNewHouse";
 import HouseList from "../Pages/Dashboard/DashPages/HouseList";
 import HouseUpdate from "../Pages/Dashboard/DashPages/HouseUpdate";
+import RenterHome from "../Pages/Dashboard/DashHome/RenterHome";
+import Bookings from "../Pages/Dashboard/DashPages/Bookings";
 
 const route = createBrowserRouter([
   {
@@ -52,8 +54,8 @@ const route = createBrowserRouter([
             element: <OwnerHome/>
         },
         {
-            path: 'addNewHouse',
-            element: <AddNewHouse/>
+          path: 'addNewHouse',
+          element: <AddNewHouse/>
         },
         {
             path: 'houseList',
@@ -63,6 +65,15 @@ const route = createBrowserRouter([
             path: 'houseUpdate/:id',
             element: <HouseUpdate/>
         },
+        {
+          path: 'renterHome',
+          element: <RenterHome/>
+        },
+        {
+          path: 'bookings',
+          element: <Bookings/>
+        },
+    
     ]
   },
 ]);

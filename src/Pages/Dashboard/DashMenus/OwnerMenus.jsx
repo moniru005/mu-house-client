@@ -1,13 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
-// import { GrUserAdmin } from "react-icons/gr";
 import { FaUserCheck, FaUsers } from "react-icons/fa";
-// import { BiTask } from "react-icons/bi";
-// import { FaMoneyCheckDollar } from "react-icons/fa6";
 import { GrUserAdmin } from "react-icons/gr";
 const OwnerMenus = () => {
   return (
     <>
-      <Link to="/dashboard/adminHome">
+      <Link to="/dashboard/ownerHome">
         <h2 className="text-start text-xl  border-b-2 border-light-blue-600">
           House Owner
         </h2>
@@ -29,21 +26,7 @@ const OwnerMenus = () => {
         <button className="w-full">House List</button>
       </NavLink>
 
-      {/* <NavLink
-        to="/dashboard/workSheetList"
-        className={`flex items-center gap-2`}
-      >
-        <BiTask className="text-green-400 text-2xl"></BiTask>
-        <button className="w-full">Update House</button>
-      </NavLink> */}
-
-      {/* <NavLink
-        to="/dashboard/paymentHistory"
-        className={`flex items-center gap-2`}
-      >
-        <FaMoneyCheckDollar className="text-green-400 text-2xl"></FaMoneyCheckDollar>
-        <button className="w-full">Payment History</button>
-      </NavLink> */}
+     
     </>
   );
 };

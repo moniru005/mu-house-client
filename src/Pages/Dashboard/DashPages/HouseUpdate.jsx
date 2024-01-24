@@ -4,7 +4,6 @@ import Swal from "sweetalert2";
 import { Helmet } from "react-helmet-async";
 // import useAuth from "../../../Hooks/useAuth";
 import useAxiosPublic from "../../../Hooks/useAxiosPublic";
-import HouseList from "./HouseList";
 import { useNavigate, useParams } from "react-router-dom";
 import useAxiosSecure from "../../../Hooks/useAxiosSecure";
 import { useQuery } from "@tanstack/react-query";
